@@ -85,25 +85,25 @@ int main() {
     //print requires statments and total swaps
     printf("array1:\n");
     for (int i = 0; i < n1; i++) {
-        printf("%d: %d of times %d is swapped\n", array1[i], swapCount1[array1[i]], array1[i]);
+        printf("%d: %d\n", array1[i], swapCount1[array1[i]]);
     }
     printf("%d\n\n", swapsBubble1);
 
     printf("array2:\n");
     for (int i = 0; i < n2; i++) {
-        printf("%d: %d of times %d is swapped\n", array2[i], swapCount2[array2[i]],array2[i]);
+        printf("%d: %d\n", array2[i], swapCount2[array2[i]]);
     }
     printf("%d\n\n", swapsBubble2);
 
     printf("array1:\n");
     for (int i = 0; i < n1; i++) {
-        printf("%d: %d of times %d is swapped\n", array3[i], swapCount3[array3[i]], array3[i]);
+        printf("%d: %d\n", array3[i], swapCount3[array3[i]]);
     }
     printf("%d\n\n", swapsSelection1);
 
     printf("array2:\n");
     for (int i = 0; i < n2; i++) {
-        printf("%d: %d of times %d is swapped\n", array4[i], swapCount4[array4[i]], array4[i]);
+        printf("%d: %d \n", array4[i], swapCount4[array4[i]]);
     }
     printf("%d\n", swapsSelection2);
 
